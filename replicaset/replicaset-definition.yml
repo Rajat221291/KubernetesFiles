@@ -11,12 +11,12 @@ spec:
     metadata:
       name: myapp-pod
       labels:
-      app: myapp
+        app: myapp
 
     spec:
       containers:
         - name: ubuntu-container
-          image: ubuntu
+          image: ubuntu:14.04
 
   replicas: 3
 
